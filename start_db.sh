@@ -1,0 +1,1 @@
+docker run -d --name lifting-postgres -e POSTGRES_USER=user -e POSTGRES_PASSWORD=password -e POSTGRES_DB=lifting_tracker -p 5432:5432 postgres:15.2

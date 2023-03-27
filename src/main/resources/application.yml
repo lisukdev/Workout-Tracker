@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: catalog-service
+  datasource:
+    username: user
+    password: password
+    url: jdbc:postgresql://localhost:5432/lifting_tracker
+    hikari:
+      connection-timeout: 2000
+      maximum-pool-size: 5
